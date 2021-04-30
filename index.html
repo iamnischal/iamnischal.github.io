@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Text Repeater</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    </head>
+    <body>
+       <center> <h1 class="header">Text Repeater</h1>
+        <div class="main">
+            <textarea name="text" id="txt" cols="30" rows="10"></textarea><br>
+            <p class="times">How many times?</p><input type="number" min="0" max="9999" class="number" id="num">
+            <button id="btn">Repeat</button>
+            <textarea name="text" id="txt_result" cols="30" rows="10" readonly></textarea><br>
+            <a href="javascript:copy()" class="copy"> COPY <i class="fa fa-clipboard"></i></a>
+            </center>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
